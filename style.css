@@ -1,0 +1,949 @@
+.heading{
+    display: flex;
+  
+}
+.navbar-nav{
+    margin-left: 590px;
+    margin-bottom: 60px;
+    color:black;
+}
+.writings{
+    margin-bottom: 45px;
+
+}
+.logo img{
+    margin:10px;
+    margin-left: 15px;
+}
+.p1{
+    margin-left: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
+  color:rgb(120, 10, 148);
+  text-transform: uppercase;
+  margin-top: 25px;
+
+}
+.p2 h6{
+    font-size: 8px;
+    font-family: "Pacifico", cursive;
+    margin-bottom: 5px;
+    margin-left: 45px;
+}
+.p3{
+    background-color: rgba(132, 33, 185, 0.973);
+}
+.p3 h6{
+   
+  
+    margin-left: 37px;
+    color:black;
+    font-size: 8px;
+  color:white;
+    padding: 5px;
+    align-items: center;
+    
+}
+
+.p4{
+   font-size: 8px;
+   margin-left: 50px;
+   margin-bottom: 5px;
+}
+.nav-item{
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.nav-item:hover{
+text-decoration: underline;
+
+}
+.cols{
+    margin-top: 30px;
+}
+.imm{
+    border-color: rgb(142, 48, 130);
+}
+.cols1{
+    color:rgb(120, 10, 148);
+    font-weight: 900;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.cols2{
+    color:rgb(120, 10, 148);
+    font-weight: 900;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+.cols3{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.coles1{
+    font-size: 45px;
+    color:rgb(120, 10, 148);
+    font-weight: 900;
+    font-weight: bolder;
+}
+.colls1{
+    color:rgb(120, 10, 148);
+    font-weight: 900;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-bottom: 110px;
+    margin-left: 80px;
+}
+.colls2{
+    color:rgb(120, 10, 148);
+    font-weight: 900;
+    font-weight: bolder;
+    font-size: 23px;
+    margin-bottom: 20px;
+
+    margin-left: 30px;
+}
+.colls3{
+    margin-left: 90px;
+    margin-top: 70px;
+}
+.colss1{
+    
+    color:rgb(120, 10, 148);
+    font-weight: 900;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    
+}
+.colss2{
+    color:rgb(120, 10, 148);
+    font-weight: 900;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.colss3{
+    margin-top: 90px;
+}
+.btn{
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+.grid2{
+    position:relative;
+    right:35%;
+    border-radius: 10%;
+    filter:drop-shadow(3px 4px 20px rgb(187, 185, 198));
+}
+.img-img{
+    position:relative;
+    top:10%;
+    border-radius: 10%;
+    filter:drop-shadow(3px 4px 20px rgb(187, 185, 198));
+}
+.grid3{
+    position:relative;
+    right:99%;
+    bottom:55%;
+    border-radius: 10%;
+    filter:drop-shadow(3px 4px 20px rgb(187, 185, 198));
+    background: linear-gradient(rgb(50,78,76)56%,rgb(99,89,56)50%);
+    
+}
+
+.coloummn{
+    margin-top: 330px;
+}
+.coloummn1 p{
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    color: rgb(128, 71, 135);
+}
+.coloummn2 p{
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    position: relative;
+    top:40%;
+}
+.coloummn3 p{
+    font-family: "Sofadi One", system-ui;
+    color: rgb(128, 71, 135);
+    
+  
+}
+.grids{
+    position: relative;
+  height: 350px;
+  width: 300px;
+}
+.img-desc{
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 39, 165, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10%;
+    transition: opacity .2s, visibility .2s;
+   
+}
+.grids:hover .img-desc{
+    visibility: visible;
+    opacity: 1;
+}
+.coloumn{
+    margin-bottom: 250px;
+    margin-top: 380px;
+}
+
+.grids3{
+    position: relative;
+  height: 350px;
+  width: 300px;
+}
+.img-desc1{
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 40%;
+    background: rgba(128, 39, 165, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10%;
+    transition: opacity .2s, visibility .2s;
+}
+.grids3:hover .img-desc1{
+    visibility: visible;
+    opacity: 1;
+}
+.img-img1{
+    border-radius: 10%;
+    position: relative;
+    right: 90%;    
+}
+.grids2{
+    position: relative;
+    height: 315px;
+    width: 300px;
+}
+.img-desc2{
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0%;
+    background: rgba(128, 39, 165, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10%;
+    transition: opacity .2s, visibility .2s;
+}
+.img-img2{
+    border-radius: 10%;
+}
+
+
+
+.grids2:hover .img-desc2{
+    visibility: visible;
+    opacity: 1;
+}
+.coloumn{
+    position: relative;
+    bottom:60%;
+}
+.column1{
+font-size: 33px;
+color: white;
+font-family: "Jacques Francois Shadow", serif;
+
+
+}
+.coloumn2{
+    font-family: "Jacques Francois Shadow", serif;
+    font-size: 19px;
+    color: white;
+}
+.coloumn3{
+    font-family: "Sofadi One", system-ui;
+    color: white;
+}
+.infos{
+    border-radius: 10%;
+}
+.cool{
+    
+    background-color: rgb(184, 156, 189);
+    
+    
+}
+.descp{
+    background-color: rgb(184, 156, 189);
+    box-shadow: 6px 6px 6px rgb(150, 141, 150);
+    border-radius: 5%;
+    width:540px;
+    height:500px;
+    margin-left: 190px;
+   position: relative;
+   top:10%;
+
+}
+.descp p{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: "Sofadi One", system-ui;
+  
+}
+.descp:hover {
+    color: blueviolet;
+    background-color: rgb(225, 214, 225);
+}
+.desc{
+    background-color: rgb(184, 156, 189);
+    box-shadow: 6px 6px 6px rgb(150, 141, 150);
+    border-radius: 5%;
+    width:540px;
+    height:500px;
+  position: relative;
+  bottom: 20%;
+  right:95%;
+
+   
+}
+
+.logo1{
+    position: relative;
+    left:20%;
+}
+
+.desc p{
+    /* margin-top: 100px; */
+    padding: 20px;
+    margin-left: 30px;
+    font-family: "Sofadi One", system-ui;
+}
+.desc:hover {
+    color: blueviolet;
+    background-color: rgb(225, 214, 225);
+}
+.desc3{
+    background-color: rgb(184, 156, 189);
+    box-shadow: 6px 6px 6px rgb(150, 141, 150);
+    border-radius: 5%;
+    width:540px;
+    height:500px;
+ 
+    margin-top: 90px;
+    position: relative;
+    right: 40%;
+    bottom:32%;
+
+  
+}
+.desc3 p{
+    margin-bottom: 100px;
+    padding: 20px;
+    font-family: "Sofadi One", system-ui;
+}
+.desc3:hover {
+    color: blueviolet;
+    background-color: rgb(225, 214, 225);
+}
+.view{
+    text-decoration: underline;
+    font-family: "Sofadi One", system-ui;
+    cursor: pointer;
+    
+}
+
+.details{
+    background-color: rgb(111, 19, 117);
+}
+.imagees{
+    margin-right: 400px;
+ color:white;
+  position: relative;
+  top:3%;
+    margin-left: 20px;
+    transition: background-image 0.3s ease-in-out;
+ 
+    
+    width:50px;
+    height:50px;
+  background-color: rgb(150, 111, 165);
+  width:90px;
+  height:90px;
+  border-radius: 50%;
+    
+}
+.imagees h3{
+    border-radius: 50%;
+    margin: 5px;
+    padding: 25px;
+   
+   
+    
+    
+}
+.logo3{
+    position: relative;
+    right:100%;
+    top:7%;
+}
+
+.descp:hover .imagees h3{
+    
+ background-color: rgb(128, 71, 135);
+ width:95px;
+ margin-right: 14px;
+ height:90px;
+
+}
+.logo2{
+    position: relative;
+    bottom: 5%;
+    right:80%;
+}
+.imagees1{
+    margin-right: 400px;
+    color:white;
+     position: relative;
+     top:3%;
+       margin-left: 20px;
+       transition: background-image 0.3s ease-in-out;
+    
+       
+       width:50px;
+       height:50px;
+     background-color: rgb(150, 111, 165);
+     width:90px;
+     height:90px;
+     border-radius: 50%;
+       
+}
+.imagees1 h3{
+    border-radius: 50%;
+    margin: 5px;
+    padding: 25px;
+   
+}
+.desc:hover .imagees1 h3{
+    
+    background-color: rgb(128, 71, 135);
+    width:95px;
+    margin-right: 14px;
+    height:90px;
+   
+   }
+   .imagges2{
+    margin-right: 400px;
+    color:white;
+     position: relative;
+     top:3%;
+       margin-left: 20px;
+       transition: background-image 0.3s ease-in-out;
+    
+       
+       width:50px;
+       height:50px;
+     background-color: rgb(150, 111, 165);
+     width:90px;
+     height:90px;
+     border-radius: 50%;
+       
+}
+.imagges2 h3{
+    border-radius: 50%;
+    margin: 5px;
+    padding: 25px;
+   
+}
+.desc3:hover .imagges2 h3{
+    
+    background-color: rgb(128, 71, 135);
+    width:95px;
+    margin-right: 14px;
+    height:90px;
+   
+   }
+.views{
+    text-decoration: underline;
+    position: relative;
+    bottom: 18%;
+    font-family: "Sofadi One", system-ui;
+}
+.btn{
+   width:100px;
+   height:60px;
+}
+.insta{
+    margin-top: 80px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    color:rgb(142, 48, 130);
+   
+}
+.instaimag {
+    height: 300px;
+    overflow-y: scroll;
+    margin-left: 80px;
+    margin-top: 50px;
+    
+}
+
+.instaimag img{
+    padding: 15px;
+}
+
+
+.instaimag::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.instaimag::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.secc-2{
+    margin-top: 150px;
+    margin-left: 10px;
+}
+.lum{
+    color:rgb(114, 25, 132);
+    margin-top: 150px;
+    margin-left: 30px;
+    font-family: "Playfair Display", serif;
+}
+.lum1{
+    color:rgb(114, 25, 132);
+    margin-top: 30px;
+    margin-left: 70px;
+    font-family: "Playfair Display", serif;
+}
+
+.box1{
+    background-color: whitesmoke;
+    width:350px;
+    height:400px;
+    margin-left: 10px;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 2%;
+
+}
+.computer{
+    margin-left: 140px;
+}
+.place{
+    font-family: "Cinzel", serif;
+    text-align: center;
+    border-radius: 15%;
+}
+.box1:hover{
+    box-shadow:4px 6px 8px 4px rgb(160, 140, 167);
+    background-color:rgb(208, 212, 202);
+}
+.btns{
+    width:120px;
+    height:55px;
+   background-color:white;
+   box-shadow: 4p 2px 4px rgb(194, 188, 194);
+   border-color: rgb(150, 111, 165);
+   margin-right: 20px;
+   border-radius: 31px;
+  color:rgb(142, 48, 130)
+   
+}
+.spann{
+    margin-right: 80px;
+}
+.sp1{
+    margin-right: 80px;
+}
+.sp2{
+    margin-right: 110px;
+}
+span{
+    background-color: rgb(120, 10, 148);
+    width:760px;
+    HEIGHT:50px;
+    border-radius: 10%;
+    margin-left: 320px;
+    margin-top: 20px;
+    font-size: 70px;
+    
+   
+    
+}
+.badge{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.box2{
+    background-color: whitesmoke;
+    width:350px;
+    height:400px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 2%;
+
+}
+.computer1{
+    margin-left: 140px;
+}
+.place1{
+    font-family: "Cinzel", serif;
+    text-align: center;
+  
+}
+.box2:hover{
+    box-shadow:4px 6px 8px 4px rgb(160, 140, 167);
+    background-color:rgb(208, 212, 202);
+}
+.box3{
+    background-color: whitesmoke;
+    width:350px;
+    height:400px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 2%;
+
+}
+.computer2{
+    margin-left: 140px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.place2{
+    font-family: "Cinzel", serif;
+    text-align: center;
+    border-radius: 10%;
+}
+.box3:hover{
+    background-color:rgb(208, 212, 202);
+    box-shadow:4px 6px 8px 4px rgb(160, 140, 167);
+}
+.review1{
+    margin-top: 150px;
+    margin-left: 70px;
+}
+.p-1{
+    color:rgb(120, 10, 148);
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+}
+.pp-2{
+    font-size: 30px;
+  
+    font-family: "Playfair Display", serif;
+    color:rgb(120, 10, 148);
+    font-weight: bolder;
+}
+.revs{
+    background-color: #fff;
+    width:600px;
+    height:300px;
+    box-shadow: 4px 4px 6px 4px rgb(187, 185, 198);
+    position: relative;
+    left: 3%;
+    margin-top: 20px;
+    border-radius: 2%;
+}
+.rev1{
+    color: rgb(120, 10, 148);
+    size:80px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.rev2{
+    margin-top: 190px;
+    margin: 15px;
+    padding: 40px;
+}
+.name1{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin-left: 60px;
+    color: rgb(120, 10, 148);
+}
+.revimage img{
+    width:400px;
+    height:450px;
+    /* position: relative;
+    left:10%; */
+    
+    margin-bottom: 80px;
+   
+}
+.revss{
+    display: flex;
+}
+.revimage1 img{
+    width:300px;
+    height:350px;
+    gap:20px;
+    padding: 30px;
+    margin: 10px;
+}
+.revvs{
+    background-color: #fff;
+    width:600px;
+    height:300px;
+    box-shadow: 4px 4px 6px 4px rgb(187, 185, 198);
+    position: relative;
+    left: 3%;
+    margin-top: 20px;
+    border-radius: 2%;
+}
+.revimage3 img{
+    width:400px;
+    height:450px;
+    /* position: relative;
+    left:10%; */
+    
+    margin-bottom: 80px;
+   
+}
+.revimage5 img{
+    width:300px;
+    height:350px;
+    /* position: relative;
+    left:10%; */
+    
+    margin-bottom: 80px;
+   
+}
+.revimage4 img{
+    width:300px;
+    height:350px;
+    gap:20px;
+    padding: 30px;
+    margin: 10px;
+}
+.revimage6 img{
+    width:300px;
+    height:350px;
+    gap:20px;
+    padding: 30px;
+    margin: 10px;
+}
+.review{
+    background-color:whitesmoke;
+}
+.row{
+    margin-top: 110px;
+gap:10px;
+   
+}
+.collls{
+    margin-bottom: 50px;
+}
+.col{
+    margin-top: 79px;
+}
+.mission{
+    font-family: "Playfair Display", serif;
+    color:rgb(128, 71, 135);
+    font-size: 40px;
+   
+}
+.vision{
+    font-family: "Sofadi One", system-ui;
+}
+.conatinerr{
+
+    background-color: whitesmoke;
+    width:250px;
+    height:290px;
+    margin-left: 98px;
+    margin-top: 139px;
+    box-shadow: 2px 4px 4px 2px rgb(187, 185, 198);
+    border-radius: 2%;
+}
+.stack{
+    position: relative;
+    right:40%;
+    bottom:19%;
+    border-radius: 10%;
+    box-shadow: 2px 4px 4px 2px rgb(187, 185, 198);
+    
+}
+.stack1{
+    position: relative;
+    left: 38%;
+    border-radius: 10%;
+    box-shadow: 2px 4px 4px 2px rgb(187, 185, 198);
+    bottom:9%;
+}
+.tech{
+    font-family: "Playfair Display", serif;
+    color:rgb(128, 71, 135);
+}
+
+.tech1{
+    font-family: "Sofadi One", system-ui;
+   
+}
+.contain{
+    margin: 30px;
+    gap: 180px;
+    padding-inline: 60px;
+    margin-top: 50px;
+ 
+}
+
+.stk{
+    background-color: rgb(172, 99, 99);
+  box-shadow: 2px 4px 6px rgb(184, 156, 189);
+  position: relative;
+  right:2%;
+  top:20%;
+}
+.stk1{
+    position: relative;
+  
+  box-shadow: 2px 4px 6px rgb(184, 156, 189);
+bottom: 15%;
+
+top:20%;
+
+}
+.stk2{
+    box-shadow: 2px 4px 6px 4px rgb(184, 156, 189);
+    position: relative;
+    left:2%;
+}
+.stk3{
+    box-shadow: 2px 4px 6px 4px rgb(184, 156, 189);
+    position: relative;
+    right: 2%;
+    top:10%;
+    background-color: #fff;
+}
+.stk4{
+    box-shadow: 2px 4px 6px 4px rgb(184, 156, 189);
+    position: relative;
+    right:1%;
+    left:1%;
+}
+.stk5{
+    box-shadow: 2px 4px 6px 4px rgb(184, 156, 189);
+    position: relative;
+    left:3%;
+}
+.carso{
+    margin-top: 90px;
+}
+.icon{
+    margin-bottom: 170px;
+    margin-right: 220px;
+}
+.collls{
+    position: relative;
+    bottom:10%;
+}
+.wait{
+    margin-top: 130px;
+    background-image: url(./Screenshot\ 2024-09-20\ 111310.png);
+color:whitesmoke;
+}
+
+.wait1 {
+    margin-left: 99px;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    padding: 50px;
+}
+
+
+.wait2{
+    margin-left: 379px;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    
+}
+.wait3{
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+    margin-left: 460px;
+    margin-top: 100px;
+    color:goldenrod;
+}
+.adver button{
+    margin-left: 590px;
+    width:150px;
+    border-radius: 20px;
+    margin-top: 60px;
+    font-family: "Sofadi One", system-ui;
+}
+.pen{
+    margin-left: 190px;
+}
+.badge{
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+   border-radius: 31px;
+   padding: 10px;
+    
+
+}
+span{
+    border-radius: 25px;
+    background-color: rgb(143, 100, 149);
+}
+.btnn{
+    border-radius: 31px;
+    background-color: rgb(143, 100, 149);
+    border-color:white ;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-left: 70px;
+}
+.whats img {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 15px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+
+
+} 
+.message img{
+    position: fixed;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+     width: 60px;
+    height: 60px;
+    bottom: 40px;
+
+}
